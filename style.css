@@ -20,7 +20,7 @@ body {
 }
 
 img {
-  height: 13.5em;
+  height: 20em;
   padding-top: 0;
 }
 
@@ -34,14 +34,14 @@ img {
   flex-direction: column;
   justify-content: space-between;
   height: 30em;
-  width: 15em;
+  width: 22em;
 
   background-color: hsl(0, 0%, 100%);
 }
 
 .improve {
   font-weight: 700;
-  width: 14em;
+  width: 15em;
   text-align: center;
 }
 
