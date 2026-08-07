@@ -6,13 +6,22 @@
         color: hsl(228, 45%, 44%);
 }
 
+body {
+  background-color: hsl(212, 45%, 89%);
+
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  height: 100vh;
+}
+
 .white-border {
   border: 5px solid hsl(0, 0%, 100%);
   border-radius: 5%;
 }
 
 img {
-  height: 45%;
+  height: 13.5em;
+  padding-top: 0;
 }
 
 .flex {
@@ -21,24 +30,25 @@ img {
   justify-content: center;
 }
 
-#container {
+.qr-card {
   flex-direction: column;
-  height: 58%;
-  width: 15%;
+  justify-content: space-between;
+  height: 30em;
+  width: 15em;
 
   background-color: hsl(0, 0%, 100%);
 }
 
 #improve {
   font-weight: 700;
-  width: 90%;
+  width: 14em;
   text-align: center;
 }
 
 #scan {
   font-weight: 400;
   color: hsl(216, 15%, 48%);
-  width: 90%;
+  width: 15em;
   text-align: center;
 }
 
@@ -46,10 +56,4 @@ footer {
   width: 85%;
 }
 
-body {
-  background-color: hsl(212, 45%, 89%);
 
-  font-family: "Outfit", sans-serif;
-  font-size: 15px;
-  height: 100vh;
-}
